@@ -23,7 +23,6 @@ try:
     import un
     if hasattr(un, 'current_wifi'):
         print("[+] Security Bypass Active. Starting Tool...")
-        # HWID check ကို ကျော်ပြီး wifi function ဆီ တိုက်ရိုက်သွားခိုင်းခြင်း
         un.current_wifi("Verified (Bypass Mode)")
     else:
         print("[-] Error: current_wifi function not found in un.so")
