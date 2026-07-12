@@ -80,7 +80,7 @@ def check_security():
             print(f"{r}--------------------------------------------------")
             print(f"{r}[!] Your Device HWID is not registered.")
             print(f"{y}[*] Your Unique HWID: {w}{my_id}")
-            print(f"{y}[*] Please contact the Developer for registration.")
+            print(f"{y}[*] Please contact the Developer: @Nain663 .")
             print(f"{r}--------------------------------------------------")
             sys.exit(0)
         else:
